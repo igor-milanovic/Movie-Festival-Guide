@@ -1,0 +1,9 @@
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Domain\bin\Debug\netcoreapp3.1\MFG.Domain.deps.json
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Domain\bin\Debug\netcoreapp3.1\MFG.Domain.dll
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Domain\bin\Debug\netcoreapp3.1\MFG.Domain.pdb
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Domain\obj\Debug\netcoreapp3.1\MFG.Domain.csprojAssemblyReference.cache
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Domain\obj\Debug\netcoreapp3.1\MFG.Domain.AssemblyInfoInputs.cache
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Domain\obj\Debug\netcoreapp3.1\MFG.Domain.AssemblyInfo.cs
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Domain\obj\Debug\netcoreapp3.1\MFG.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Domain\obj\Debug\netcoreapp3.1\MFG.Domain.dll
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Domain\obj\Debug\netcoreapp3.1\MFG.Domain.pdb

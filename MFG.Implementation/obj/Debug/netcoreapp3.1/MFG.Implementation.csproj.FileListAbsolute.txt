@@ -1,0 +1,16 @@
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Implementation\bin\Debug\netcoreapp3.1\MFG.Implementation.deps.json
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Implementation\bin\Debug\netcoreapp3.1\MFG.Implementation.dll
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Implementation\obj\Debug\netcoreapp3.1\MFG.Implementation.csprojAssemblyReference.cache
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Implementation\obj\Debug\netcoreapp3.1\MFG.Implementation.AssemblyInfoInputs.cache
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Implementation\obj\Debug\netcoreapp3.1\MFG.Implementation.AssemblyInfo.cs
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Implementation\bin\Debug\netcoreapp3.1\MFG.Implementation.pdb
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Implementation\bin\Debug\netcoreapp3.1\MFG.Application.dll
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Implementation\bin\Debug\netcoreapp3.1\MFG.DataAccess.dll
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Implementation\bin\Debug\netcoreapp3.1\MFG.Domain.dll
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Implementation\bin\Debug\netcoreapp3.1\MFG.Application.pdb
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Implementation\bin\Debug\netcoreapp3.1\MFG.DataAccess.pdb
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Implementation\bin\Debug\netcoreapp3.1\MFG.Domain.pdb
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Implementation\obj\Debug\netcoreapp3.1\MFG.Implementation.csproj.CopyComplete
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Implementation\obj\Debug\netcoreapp3.1\MFG.Implementation.dll
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Implementation\obj\Debug\netcoreapp3.1\MFG.Implementation.pdb
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.Implementation\obj\Debug\netcoreapp3.1\MFG.Implementation.csproj.CoreCompileInputs.cache
