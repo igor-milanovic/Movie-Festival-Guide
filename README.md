@@ -82,9 +82,15 @@ School project
 		Manages tables	
 
 6. Slika dizajna baze podataka okačena je sa projektom
+
+
 7. ideja
 
+
 	-user se registruje
+	
 	-napravi rezervaciju
+	
 	-kada ode da pokupi karte, kaze prodavcu ReservationCode koji dobija po pravljenju rezervacije
+	
 	-prodavac trazi rezervacije po kodu, kada pronadje njen ID moze da promeni stanje na Bought
