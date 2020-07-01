@@ -42,7 +42,7 @@ namespace MFG.API.Controllers
         [Authorize]
         // POST api/<MovieController>
         [HttpPost]
-        public IActionResult Post([FromBody] MovieDto dto, [FromServices] ICreateMovieCommand command)
+        public IActionResult Post([FromBody] MovieCreateDto dto, [FromServices] ICreateMovieCommand command)
         {
             _executor.ExecuteCommand(command, dto);
             return Ok("uneot");

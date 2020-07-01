@@ -16,10 +16,10 @@ namespace MFG.Implementation.Commands.UserCommands
     {
         private readonly MFGContext _context;
         private readonly IMapper _mapper;
-        private readonly UserValidator _validator;
+        private readonly UserCreateDtoValidator _validator;
         private readonly IEmailSender _emailSender;
 
-        public CreateUserCommand(MFGContext context, IMapper mapper, UserValidator validator, IEmailSender emailSender)
+        public CreateUserCommand(MFGContext context, IMapper mapper, UserCreateDtoValidator validator, IEmailSender emailSender)
         {
             _context = context;
             _mapper = mapper;
@@ -31,7 +31,7 @@ namespace MFG.Implementation.Commands.UserCommands
 
         public string Name => "Create User";
 
-        public void Execute(UserDto request)
+        public void Execute(UserCreateDto request)
         {
             _validator.ValidateAndThrow(request);
 

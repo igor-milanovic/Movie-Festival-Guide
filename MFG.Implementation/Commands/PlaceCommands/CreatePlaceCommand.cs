@@ -15,9 +15,9 @@ namespace MFG.Implementation.Commands.PlaceCommands
     {
         private readonly MFGContext _context;
         private readonly IMapper _mapper;
-        private readonly PlaceValidator _validator;
+        private readonly PlaceCreateDtoValidator _validator;
 
-        public CreatePlaceCommand(MFGContext context, IMapper mapper, PlaceValidator validator)
+        public CreatePlaceCommand(MFGContext context, IMapper mapper, PlaceCreateDtoValidator validator)
         {
             _context = context;
             _mapper = mapper;
@@ -28,7 +28,7 @@ namespace MFG.Implementation.Commands.PlaceCommands
 
         public string Name => "Create Place";
 
-        public void Execute(PlaceDto request)
+        public void Execute(PlaceCreateDto request)
         {
             _validator.ValidateAndThrow(request);
 

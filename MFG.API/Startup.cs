@@ -173,25 +173,39 @@ namespace MFG.API
 
             services.AddTransient<CityValidator>();
             services.AddTransient<EditCityValidator>();
+            services.AddTransient<CityCreateDtoValidator>();
 
             services.AddTransient<DirectorValidator>();
+            services.AddTransient<DirectorCreateDtoValidator>();
 
             services.AddTransient<FestivalValidator>();
             services.AddTransient<EditFestivalValidator>();
+            services.AddTransient<FestivalCreateDtoValidator>();
 
             services.AddTransient<HallValidator>();
+            services.AddTransient<HallCreateDtoValidator>();
+
             services.AddTransient<LocationValidator>();
+            services.AddTransient<LocationCreateDtoValidator>();
+
             services.AddTransient<MovieValidator>();
+            services.AddTransient<MovieCreateDtoValidator>();
+
             services.AddTransient<PlaceValidator>();
+            services.AddTransient<PlaceCreateDtoValidator>();
+
             services.AddTransient<ProjectionValidator>();
+            services.AddTransient<ProjectionCreateDtoValidator>();
 
             services.AddTransient<TicketReservationValidator>();
             services.AddTransient<BuyTicketReservationValidator>();
+            services.AddTransient<TicketReservationCreateDtoValidator>();
 
             services.AddTransient<TicketValidator>();
+            services.AddTransient<TicketCreateDtoValidator>();
 
             services.AddTransient<UserValidator>();
-
+            services.AddTransient<UserCreateDtoValidator>();
             services.AddTransient<UserRoleValidator>();
 
             services.AddTransient<JwtManager>();

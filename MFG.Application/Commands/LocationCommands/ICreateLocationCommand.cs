@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MFG.Application.Commands.LocationCommands
 {
-    public interface ICreateLocationCommand : ICommand<LocationDto>
+    public interface ICreateLocationCommand : ICommand<LocationCreateDto>
     {
     }
 }

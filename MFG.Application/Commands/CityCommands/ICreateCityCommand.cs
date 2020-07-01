@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MFG.Application.Commands.CityCommands
 {
-    public interface ICreateCityCommand : ICommand<CityDto>
+    public interface ICreateCityCommand : ICommand<CityCreateDto>
     {
     }
 }

@@ -44,7 +44,7 @@ namespace MFG.API.Controllers
         [Authorize]
         // POST api/<DirectorController>
         [HttpPost]
-        public IActionResult Post([FromBody] DirectorDto dto, [FromServices] ICreateDirectorCommand command)
+        public IActionResult Post([FromBody] DirectorCreateDto dto, [FromServices] ICreateDirectorCommand command)
         {
             _executor.ExecuteCommand(command, dto);
             return Ok("radi");

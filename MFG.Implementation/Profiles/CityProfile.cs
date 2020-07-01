@@ -14,6 +14,9 @@ namespace MFG.Implementation.Profiles
             CreateMap<City, CityDto>();
             CreateMap<CityDto, City>();
 
+            CreateMap<City, CityCreateDto>();
+            CreateMap<CityCreateDto, City>();
+
             CreateMap<City, EditCityDto>();
             CreateMap<EditCityDto, City>();
 

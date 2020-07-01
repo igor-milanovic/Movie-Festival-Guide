@@ -13,6 +13,9 @@ namespace MFG.Implementation.Profiles
         {
             CreateMap<Director, DirectorDto>();
             CreateMap<DirectorDto, Director>();
+
+            CreateMap<Director, DirectorCreateDto>();
+            CreateMap<DirectorCreateDto, Director>();
         }
     }
 }

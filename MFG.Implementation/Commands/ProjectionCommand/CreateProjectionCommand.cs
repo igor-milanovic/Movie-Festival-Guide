@@ -15,9 +15,9 @@ namespace MFG.Implementation.Commands.ProjectionCommand
     {
         private readonly MFGContext _context;
         private readonly IMapper _mapper;
-        private readonly ProjectionValidator _validator;
+        private readonly ProjectionCreateDtoValidator _validator;
 
-        public CreateProjectionCommand(MFGContext context, IMapper mapper, ProjectionValidator validator)
+        public CreateProjectionCommand(MFGContext context, IMapper mapper, ProjectionCreateDtoValidator validator)
         {
             _context = context;
             _mapper = mapper;
@@ -28,7 +28,7 @@ namespace MFG.Implementation.Commands.ProjectionCommand
 
         public string Name => "Create Projection";
 
-        public void Execute(ProjectionDto request)
+        public void Execute(ProjectionCreateDto request)
         {
             _validator.ValidateAndThrow(request);
 

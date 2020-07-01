@@ -15,9 +15,9 @@ namespace MFG.Implementation.Commands.MovieCommands
     {
         private readonly MFGContext _context;
         private readonly IMapper _mapper;
-        private readonly MovieValidator _validator;
+        private readonly MovieCreateDtoValidator _validator;
 
-        public CreateMovieCommand(MFGContext context, IMapper mapper, MovieValidator validator)
+        public CreateMovieCommand(MFGContext context, IMapper mapper, MovieCreateDtoValidator validator)
         {
             _context = context;
             _mapper = mapper;
@@ -28,7 +28,7 @@ namespace MFG.Implementation.Commands.MovieCommands
 
         public string Name => "Create Movie";
 
-        public void Execute(MovieDto request)
+        public void Execute(MovieCreateDto request)
         {
             _validator.ValidateAndThrow(request);
 

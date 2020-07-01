@@ -44,7 +44,7 @@ namespace MFG.API.Controllers
 
         [HttpPost]
         // POST api/<CityController>
-        public IActionResult Post([FromBody] CityDto obj, [FromServices] ICreateCityCommand command)
+        public IActionResult Post([FromBody] CityCreateDto obj, [FromServices] ICreateCityCommand command)
         {
             _executor.ExecuteCommand(command, obj);
 

@@ -44,7 +44,7 @@ namespace MFG.API.Controllers
         [Authorize]
         // POST api/<FestivalController>
         [HttpPost]
-        public IActionResult Post([FromBody] EditFestivalDto dto, [FromServices] ICreateFestivalCommand command)
+        public IActionResult Post([FromBody] FestivalCreateDto dto, [FromServices] ICreateFestivalCommand command)
         {
             _executor.ExecuteCommand(command, dto);
 

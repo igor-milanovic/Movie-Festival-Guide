@@ -48,7 +48,7 @@ namespace MFG.Implementation.Queries
 
             if (search.AfterDate != null)
             {
-                query = query.Where(x => x.Date < search.AfterDate);
+                query = query.Where(x => x.Date > search.AfterDate);
             }
 
             return query.Paged<UseCaseLogDto, UseCaseLog>(search, _mapper);

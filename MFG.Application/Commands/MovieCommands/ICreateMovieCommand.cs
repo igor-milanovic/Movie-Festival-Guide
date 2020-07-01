@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MFG.Application.Commands.MovieCommands
 {
-    public interface ICreateMovieCommand : ICommand<MovieDto>
+    public interface ICreateMovieCommand : ICommand<MovieCreateDto>
     {
     }
 }

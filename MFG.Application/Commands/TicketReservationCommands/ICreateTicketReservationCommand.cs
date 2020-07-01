@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MFG.Application.Commands.TicketReservationCommands
 {
-    public interface ICreateTicketReservationCommand : ICommand<TicketReservationDto>
+    public interface ICreateTicketReservationCommand : ICommand<TicketReservationCreateDto>
     {
     }
 }

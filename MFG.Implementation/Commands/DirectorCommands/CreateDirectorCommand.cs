@@ -15,9 +15,9 @@ namespace MFG.Implementation.Commands.DirectorCommands
     {
         private readonly IMapper _mapper;
         private readonly MFGContext _context;
-        private readonly DirectorValidator _validator;
+        private readonly DirectorCreateDtoValidator _validator;
 
-        public CreateDirectorCommand(IMapper mapper, MFGContext context, DirectorValidator validator)
+        public CreateDirectorCommand(IMapper mapper, MFGContext context, DirectorCreateDtoValidator validator)
         {
             _mapper = mapper;
             _context = context;
@@ -28,7 +28,7 @@ namespace MFG.Implementation.Commands.DirectorCommands
 
         public string Name => "Create Director";
 
-        public void Execute(DirectorDto request)
+        public void Execute(DirectorCreateDto request)
         {
             _validator.ValidateAndThrow(request);
 

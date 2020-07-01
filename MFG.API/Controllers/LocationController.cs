@@ -42,7 +42,7 @@ namespace MFG.API.Controllers
 
         // POST api/<LocationController>
         [HttpPost]
-        public IActionResult Post([FromBody] LocationDto dto, [FromServices] ICreateLocationCommand command)
+        public IActionResult Post([FromBody] LocationCreateDto dto, [FromServices] ICreateLocationCommand command)
         {
             _executor.ExecuteCommand(command, dto);
             return Ok("Uneto");

@@ -13,6 +13,9 @@ namespace MFG.Implementation.Profiles
         {
             CreateMap<Hall, HallDto>();
             CreateMap<HallDto, Hall>();
+
+            CreateMap<Hall, HallCreateDto>();
+            CreateMap<HallCreateDto, Hall>();
         }
     }
 }

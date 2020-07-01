@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MFG.Application.Commands.FestivalCommands
 {
-    public interface ICreateFestivalCommand : ICommand<EditFestivalDto>
+    public interface ICreateFestivalCommand : ICommand<FestivalCreateDto>
     {
     }
 }

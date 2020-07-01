@@ -42,7 +42,7 @@ namespace MFG.API.Controllers
 
         // POST api/<PlaceController>
         [HttpPost]
-        public IActionResult Post([FromBody] PlaceDto dto, [FromServices] ICreatePlaceCommand command)
+        public IActionResult Post([FromBody] PlaceCreateDto dto, [FromServices] ICreatePlaceCommand command)
         {
             _executor.ExecuteCommand(command, dto);
             return Ok("uneto");

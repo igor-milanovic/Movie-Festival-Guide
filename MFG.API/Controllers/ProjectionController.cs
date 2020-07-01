@@ -42,7 +42,7 @@ namespace MFG.API.Controllers
         [Authorize]
         // POST api/<ProjectionController>
         [HttpPost]
-        public IActionResult Post([FromBody] ProjectionDto dto, [FromServices] ICreateProjectionCommand command)
+        public IActionResult Post([FromBody] ProjectionCreateDto dto, [FromServices] ICreateProjectionCommand command)
         {
             _executor.ExecuteCommand(command, dto);
             return Ok("radi");

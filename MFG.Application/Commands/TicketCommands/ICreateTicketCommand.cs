@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MFG.Application.Commands.TicketCommands
 {
-    public interface ICreateTicketCommand : ICommand<TicketDto>
+    public interface ICreateTicketCommand : ICommand<TicketCreateDto>
     {
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MFG.Application.Commands.ProjectionCommands
 {
-    public interface ICreateProjectionCommand : ICommand<ProjectionDto>
+    public interface ICreateProjectionCommand : ICommand<ProjectionCreateDto>
     {
     }
 }

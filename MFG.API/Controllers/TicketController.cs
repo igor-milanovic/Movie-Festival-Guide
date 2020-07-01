@@ -42,7 +42,7 @@ namespace MFG.API.Controllers
         [Authorize]
         // POST api/<TicketController>
         [HttpPost]
-        public IActionResult Post([FromBody] TicketDto dto, [FromServices] ICreateTicketCommand command)
+        public IActionResult Post([FromBody] TicketCreateDto dto, [FromServices] ICreateTicketCommand command)
         {
             _executor.ExecuteCommand(command, dto);
             return Ok("uneto");

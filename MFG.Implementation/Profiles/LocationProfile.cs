@@ -3,6 +3,7 @@ using MFG.Application.DataTransfer;
 using MFG.Domain;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace MFG.Implementation.Profiles
@@ -16,6 +17,9 @@ namespace MFG.Implementation.Profiles
 
             CreateMap<Location, LocationQueryDto>();
             CreateMap<LocationQueryDto, Location>();
+
+            CreateMap<Location, LocationCreateDto>();
+            CreateMap<LocationCreateDto, Location>();
         }
     }
 }

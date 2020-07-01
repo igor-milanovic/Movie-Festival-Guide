@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MFG.Application.Commands.DirectorCommands
 {
-    public interface ICreateDirectorCommand : ICommand<DirectorDto>
+    public interface ICreateDirectorCommand : ICommand<DirectorCreateDto>
     {
     }
 }

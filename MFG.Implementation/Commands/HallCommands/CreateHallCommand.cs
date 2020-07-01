@@ -15,9 +15,9 @@ namespace MFG.Implementation.Commands.HallCommands
     {
         private readonly MFGContext _context;
         private readonly IMapper _mapper;
-        private readonly HallValidator _validator;
+        private readonly HallCreateDtoValidator _validator;
 
-        public CreateHallCommand(MFGContext context, IMapper mapper, HallValidator validator)
+        public CreateHallCommand(MFGContext context, IMapper mapper, HallCreateDtoValidator validator)
         {
             _context = context;
             _mapper = mapper;
@@ -28,7 +28,7 @@ namespace MFG.Implementation.Commands.HallCommands
 
         public string Name => "Create Hall";
 
-        public void Execute(HallDto request)
+        public void Execute(HallCreateDto request)
         {
             _validator.ValidateAndThrow(request);
 

@@ -19,6 +19,9 @@ namespace MFG.Implementation.Profiles
 
             CreateMap<Festival, FestivalQueryDto>();
             CreateMap<FestivalQueryDto, Festival>();
+
+            CreateMap<Festival, FestivalCreateDto>();
+            CreateMap<FestivalCreateDto, Festival>();
         }
     }
 }

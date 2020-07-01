@@ -16,6 +16,9 @@ namespace MFG.Implementation.Profiles
                 .ForMember(x => x.Directors, opt => opt.MapFrom(x => x.MovieDirectors.Select(x => x.DirectorID).ToList()));
             CreateMap<MovieDto, Movie>();
 
+            CreateMap<Movie, MovieCreateDto>();
+            CreateMap<MovieCreateDto, Movie>();
+
             CreateMap<Movie, MovieQueryDto>();
             CreateMap<MovieQueryDto, Movie>();
         }

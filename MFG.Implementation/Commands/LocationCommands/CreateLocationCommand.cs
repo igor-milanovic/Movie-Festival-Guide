@@ -16,9 +16,9 @@ namespace MFG.Implementation.Commands.LocationCommands
     {
         private readonly MFGContext _context;
         private readonly IMapper _mapper;
-        private readonly LocationValidator _validator;
+        private readonly LocationCreateDtoValidator _validator;
 
-        public CreateLocationCommand(MFGContext context, IMapper mapper, LocationValidator validator)
+        public CreateLocationCommand(MFGContext context, IMapper mapper, LocationCreateDtoValidator validator)
         {
             _context = context;
             _mapper = mapper;
@@ -29,7 +29,7 @@ namespace MFG.Implementation.Commands.LocationCommands
 
         public string Name => "Create Location";
 
-        public void Execute(LocationDto request)
+        public void Execute(LocationCreateDto request)
         {
             _validator.ValidateAndThrow(request);
 

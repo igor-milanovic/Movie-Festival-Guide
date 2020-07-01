@@ -16,6 +16,9 @@ namespace MFG.Implementation.Profiles
 
             CreateMap<User, UserQueryDto>();
             CreateMap<UserQueryDto, User>();
+
+            CreateMap<User, UserCreateDto>();
+            CreateMap<UserCreateDto, User>();
         }
     }
 }

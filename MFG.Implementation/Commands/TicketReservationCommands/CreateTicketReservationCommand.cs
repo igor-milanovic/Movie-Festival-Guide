@@ -16,9 +16,9 @@ namespace MFG.Implementation.Commands.TicketReservationCommands
     {
         private readonly MFGContext _context;
         private readonly IMapper _mapper;
-        private readonly TicketReservationValidator _validator;
+        private readonly TicketReservationCreateDtoValidator _validator;
 
-        public CreateTicketReservationCommand(MFGContext context, IMapper mapper, TicketReservationValidator validator)
+        public CreateTicketReservationCommand(MFGContext context, IMapper mapper, TicketReservationCreateDtoValidator validator)
         {
             _context = context;
             _mapper = mapper;
@@ -28,12 +28,8 @@ namespace MFG.Implementation.Commands.TicketReservationCommands
         public int Id => 1101;
 
         public string Name => "Create Ticket Reservation";
-        //public decimal TotalPrice { get; set; }    //ja racunam!!
 
-        //public DateTime ReservationDate { get; set; }  //user ne vidi i ne unosi se s polja
-        //public DateTime? Bought { get; set; }  //user ne vidi i ne unosi se s polja
-        //public string ReservationCode { get; set; }  //user ne vidi i ne unosi se s polja
-        public void Execute(TicketReservationDto request)
+        public void Execute(TicketReservationCreateDto request)
         {
             _validator.ValidateAndThrow(request);
 

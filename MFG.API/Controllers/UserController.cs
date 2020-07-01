@@ -44,7 +44,7 @@ namespace MFG.API.Controllers
 
         // POST api/<UserController>
         [HttpPost]
-        public IActionResult Post([FromBody] UserDto dto, [FromServices] ICreateUserCommand command)
+        public IActionResult Post([FromBody] UserCreateDto dto, [FromServices] ICreateUserCommand command)
         {
             _executor.ExecuteCommand(command, dto);
             return Ok("uneto");

@@ -16,6 +16,9 @@ namespace MFG.Implementation.Profiles
 
             CreateMap<TicketReservation, TicketResevationQueryDto>();
             CreateMap<TicketResevationQueryDto, TicketReservation>();
+
+            CreateMap<TicketReservation, TicketReservationCreateDto>();
+            CreateMap<TicketReservationCreateDto, TicketReservation>();
         }
     }
 }

@@ -13,6 +13,9 @@ namespace MFG.Implementation.Profiles
         {
             CreateMap<Place, PlaceDto>();
             CreateMap<PlaceDto, Place>();
+
+            CreateMap<Place, PlaceCreateDto>();
+            CreateMap<PlaceCreateDto, Place>();
         }
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MFG.Application.Commands.UserCommands
 {
-    public interface ICreateUserCommand : ICommand<UserDto>
+    public interface ICreateUserCommand : ICommand<UserCreateDto>
     {
     }
 }

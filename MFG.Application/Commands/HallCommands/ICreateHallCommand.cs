@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MFG.Application.Commands.HallCommands
 {
-    public interface ICreateHallCommand : ICommand<HallDto>
+    public interface ICreateHallCommand : ICommand<HallCreateDto>
     {
     }
 }

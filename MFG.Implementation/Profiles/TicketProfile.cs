@@ -13,6 +13,9 @@ namespace MFG.Implementation.Profiles
         {
             CreateMap<Ticket, TicketDto>();
             CreateMap<TicketDto, Ticket>();
+
+            CreateMap<Ticket, TicketCreateDto>();
+            CreateMap<TicketCreateDto, Ticket>();
         }
     }
 }

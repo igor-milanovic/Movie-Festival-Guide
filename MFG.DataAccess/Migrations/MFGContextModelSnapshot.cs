@@ -54,28 +54,28 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 592, DateTimeKind.Utc).AddTicks(3773),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 351, DateTimeKind.Utc).AddTicks(1520),
                             IsActive = true,
                             Name = "Beograd"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 592, DateTimeKind.Utc).AddTicks(5298),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 351, DateTimeKind.Utc).AddTicks(2968),
                             IsActive = true,
                             Name = "Novi Sad"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 592, DateTimeKind.Utc).AddTicks(5352),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 351, DateTimeKind.Utc).AddTicks(3016),
                             IsActive = true,
                             Name = "Niš"
                         },
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 592, DateTimeKind.Utc).AddTicks(5371),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 351, DateTimeKind.Utc).AddTicks(3041),
                             IsActive = true,
                             Name = "Vrnjačka banja"
                         });
@@ -203,7 +203,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3047),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(135),
                             IsActive = true,
                             LocationID = 1,
                             Name = "Sala 1",
@@ -212,7 +212,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3164),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(248),
                             IsActive = true,
                             LocationID = 1,
                             Name = "Aneks A",
@@ -221,7 +221,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3184),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(267),
                             IsActive = true,
                             LocationID = 1,
                             Name = "Aneks B",
@@ -230,7 +230,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3204),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(282),
                             IsActive = true,
                             LocationID = 1,
                             Name = "Japanski salon",
@@ -239,7 +239,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 5,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3218),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(302),
                             IsActive = true,
                             LocationID = 1,
                             Name = "Velika dvorana",
@@ -248,7 +248,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 6,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3243),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(321),
                             IsActive = true,
                             LocationID = 1,
                             Name = "Amfiteatar",
@@ -257,7 +257,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 7,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3262),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(336),
                             IsActive = true,
                             LocationID = 2,
                             Name = "Sala 1",
@@ -266,7 +266,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 8,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3277),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(355),
                             IsActive = true,
                             LocationID = 2,
                             Name = "Sala 2",
@@ -275,7 +275,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 9,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3296),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(370),
                             IsActive = true,
                             LocationID = 2,
                             Name = "Sala 3",
@@ -284,7 +284,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 10,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3316),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(390),
                             IsActive = true,
                             LocationID = 3,
                             Name = "Velika sala",
@@ -293,7 +293,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 11,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3331),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(404),
                             IsActive = true,
                             LocationID = 3,
                             Name = "Sala amerikana",
@@ -302,7 +302,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 12,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3350),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(419),
                             IsActive = true,
                             LocationID = 4,
                             Name = "Sala 1",
@@ -311,7 +311,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 13,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3365),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(438),
                             IsActive = true,
                             LocationID = 4,
                             Name = "Sala 2",
@@ -320,7 +320,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 14,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3380),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(453),
                             IsActive = true,
                             LocationID = 5,
                             Name = "Sala 1",
@@ -329,7 +329,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 15,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3399),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(468),
                             IsActive = true,
                             LocationID = 5,
                             Name = "Sala 2",
@@ -338,7 +338,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 16,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3414),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(482),
                             IsActive = true,
                             LocationID = 6,
                             Name = "Letnja pozornica",
@@ -347,7 +347,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 17,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3428),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(502),
                             IsActive = true,
                             LocationID = 7,
                             Name = "Sala 1",
@@ -356,7 +356,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 18,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3448),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(517),
                             IsActive = true,
                             LocationID = 7,
                             Name = "Sala 2",
@@ -365,7 +365,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 19,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3468),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(536),
                             IsActive = true,
                             LocationID = 7,
                             Name = "Velika sala",
@@ -374,7 +374,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 20,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3482),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(551),
                             IsActive = true,
                             LocationID = 8,
                             Name = "Sala 1",
@@ -383,7 +383,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 21,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3531),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(566),
                             IsActive = true,
                             LocationID = 8,
                             Name = "Sala 2",
@@ -429,7 +429,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 1,
                             CityID = 1,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 592, DateTimeKind.Utc).AddTicks(8833),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 351, DateTimeKind.Utc).AddTicks(6126),
                             IsActive = true,
                             Name = "Sava Centar"
                         },
@@ -437,7 +437,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 2,
                             CityID = 1,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 592, DateTimeKind.Utc).AddTicks(8965),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 351, DateTimeKind.Utc).AddTicks(6263),
                             IsActive = true,
                             Name = "Dom sindikata"
                         },
@@ -445,7 +445,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 3,
                             CityID = 1,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 592, DateTimeKind.Utc).AddTicks(8984),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 351, DateTimeKind.Utc).AddTicks(6282),
                             IsActive = true,
                             Name = "Dom omladine"
                         },
@@ -453,7 +453,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 4,
                             CityID = 1,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 592, DateTimeKind.Utc).AddTicks(9004),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 351, DateTimeKind.Utc).AddTicks(6302),
                             IsActive = true,
                             Name = "Centar za kulturu Vlada Divljan"
                         },
@@ -469,7 +469,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 6,
                             CityID = 4,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 592, DateTimeKind.Utc).AddTicks(9033),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 351, DateTimeKind.Utc).AddTicks(6326),
                             IsActive = true,
                             Name = "Letnja pozornica"
                         },
@@ -477,7 +477,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 7,
                             CityID = 2,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 592, DateTimeKind.Utc).AddTicks(9048),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 351, DateTimeKind.Utc).AddTicks(6341),
                             IsActive = true,
                             Name = "Kulturni centar Novog Sada"
                         },
@@ -485,7 +485,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 8,
                             CityID = 3,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 592, DateTimeKind.Utc).AddTicks(9063),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 351, DateTimeKind.Utc).AddTicks(6360),
                             IsActive = true,
                             Name = "Niški kulturni centar"
                         });
@@ -587,7 +587,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 1,
                             CityID = 1,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(6934),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(3602),
                             IsActive = true,
                             LocationID = 1
                         },
@@ -595,7 +595,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 2,
                             CityID = 1,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(7022),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(3729),
                             IsActive = true,
                             LocationID = 2
                         },
@@ -603,7 +603,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 3,
                             CityID = 1,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(7042),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(3748),
                             IsActive = true,
                             LocationID = 3
                         },
@@ -611,7 +611,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 4,
                             CityID = 1,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(7061),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(3768),
                             IsActive = true,
                             LocationID = 4
                         },
@@ -619,7 +619,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 5,
                             CityID = 4,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(7076),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(3782),
                             IsActive = true,
                             LocationID = 5
                         },
@@ -627,7 +627,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 6,
                             CityID = 4,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(7100),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(3807),
                             IsActive = true,
                             LocationID = 6
                         },
@@ -635,7 +635,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 7,
                             CityID = 2,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(7115),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(3822),
                             IsActive = true,
                             LocationID = 7
                         },
@@ -643,7 +643,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 8,
                             CityID = 3,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(7139),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 352, DateTimeKind.Utc).AddTicks(3836),
                             IsActive = true,
                             LocationID = 8
                         });
@@ -1231,6 +1231,30 @@ namespace MFG.DataAccess.Migrations
                             Id = 81,
                             RoleId = 3,
                             UseCaseId = 2121
+                        },
+                        new
+                        {
+                            Id = 82,
+                            RoleId = 2,
+                            UseCaseId = 2101
+                        },
+                        new
+                        {
+                            Id = 83,
+                            RoleId = 2,
+                            UseCaseId = 1101
+                        },
+                        new
+                        {
+                            Id = 84,
+                            RoleId = 2,
+                            UseCaseId = 1102
+                        },
+                        new
+                        {
+                            Id = 85,
+                            RoleId = 2,
+                            UseCaseId = 1103
                         });
                 });
 
@@ -1306,7 +1330,7 @@ namespace MFG.DataAccess.Migrations
                     b.Property<DateTime>("ReservationDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2020, 7, 1, 1, 47, 29, 688, DateTimeKind.Utc).AddTicks(4313));
+                        .HasDefaultValue(new DateTime(2020, 7, 1, 13, 45, 21, 430, DateTimeKind.Utc).AddTicks(827));
 
                     b.Property<int>("TicketID")
                         .HasColumnType("int");
@@ -1417,26 +1441,26 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 594, DateTimeKind.Utc).AddTicks(9944),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 353, DateTimeKind.Utc).AddTicks(6610),
                             Email = "pera@gmail.com",
                             FirstName = "Petar",
                             IsActive = true,
                             LastName = "Peric",
                             Password = "sifra123",
                             RoleID = 3,
-                            Username = "petko"
+                            Username = "admin"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 595, DateTimeKind.Utc).AddTicks(105),
+                            CreatedAt = new DateTime(2020, 7, 1, 13, 45, 21, 353, DateTimeKind.Utc).AddTicks(6737),
                             Email = "miki@gmail.com",
                             FirstName = "Mitar",
                             IsActive = true,
                             LastName = "Miric",
                             Password = "sifra123",
                             RoleID = 2,
-                            Username = "miki"
+                            Username = "seller"
                         });
                 });
 

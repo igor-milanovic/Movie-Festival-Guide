@@ -44,7 +44,7 @@ namespace MFG.API.Controllers
 
         // POST api/<HallController>
         [HttpPost]
-        public IActionResult Post([FromBody] HallDto dto, [FromServices] ICreateHallCommand command)
+        public IActionResult Post([FromBody] HallCreateDto dto, [FromServices] ICreateHallCommand command)
         {
             _executor.ExecuteCommand(command, dto);
             return Ok("uneto");

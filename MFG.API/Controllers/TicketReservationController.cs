@@ -42,7 +42,7 @@ namespace MFG.API.Controllers
 
         // POST api/<TicketReservationController>
         [HttpPost]
-        public IActionResult Post([FromBody] TicketReservationDto dto, [FromServices] ICreateTicketReservationCommand command)
+        public IActionResult Post([FromBody] TicketReservationCreateDto dto, [FromServices] ICreateTicketReservationCommand command)
         {
             _executor.ExecuteCommand(command, dto);
             return Ok("radi");

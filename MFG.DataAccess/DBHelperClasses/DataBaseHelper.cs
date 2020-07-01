@@ -883,6 +883,30 @@ namespace MFG.DataAccess.DBHelperClasses
                     Id=81,
                     RoleId= 3 ,
                     UseCaseId= 2121
+                },
+                new RoleUseCase
+                {
+                    Id=82,
+                    RoleId= 2 ,
+                    UseCaseId= 2101
+                },
+                new RoleUseCase
+                {
+                    Id=83,
+                    RoleId= 2 ,
+                    UseCaseId= 1101
+                },
+                new RoleUseCase
+                {
+                    Id=84,
+                    RoleId= 2 ,
+                    UseCaseId= 1102
+                },
+                new RoleUseCase
+                {
+                    Id=85,
+                    RoleId= 2 ,
+                    UseCaseId= 1103
                 }
             };
 

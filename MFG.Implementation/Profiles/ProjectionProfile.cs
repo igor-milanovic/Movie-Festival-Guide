@@ -16,6 +16,9 @@ namespace MFG.Implementation.Profiles
 
             CreateMap<Projection, ProjectionQueryDto>();
             CreateMap<ProjectionQueryDto, Projection>();
+
+            CreateMap<Projection, ProjectionCreateDto>();
+            CreateMap<ProjectionCreateDto, Projection>();
         }
     }
 }

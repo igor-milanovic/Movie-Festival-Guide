@@ -5,7 +5,7 @@ using System.Text;
 
 namespace MFG.Application.Commands.PlaceCommands
 {
-    public interface ICreatePlaceCommand : ICommand<PlaceDto>
+    public interface ICreatePlaceCommand : ICommand<PlaceCreateDto>
     {
     }
 }

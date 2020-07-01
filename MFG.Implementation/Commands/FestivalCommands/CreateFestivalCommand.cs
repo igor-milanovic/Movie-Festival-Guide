@@ -15,9 +15,9 @@ namespace MFG.Implementation.Commands.FestivalCommands
     {
         private readonly MFGContext _context;
         private readonly IMapper _mapper;
-        private readonly EditFestivalValidator _validator;
+        private readonly FestivalCreateDtoValidator _validator;
 
-        public CreateFestivalCommand(MFGContext context, IMapper mapper, EditFestivalValidator validator)
+        public CreateFestivalCommand(MFGContext context, IMapper mapper, FestivalCreateDtoValidator validator)
         {
             _context = context;
             _mapper = mapper;
@@ -28,7 +28,7 @@ namespace MFG.Implementation.Commands.FestivalCommands
 
         public string Name => "Create Festival";
 
-        public void Execute(EditFestivalDto request)
+        public void Execute(FestivalCreateDto request)
         {
             _validator.ValidateAndThrow(request);
 

@@ -22,10 +22,10 @@ namespace MFG.Implementation.Commands.CityCommands
          */
 
         private readonly MFGContext _context;
-        private readonly CityValidator _validator;
+        private readonly CityCreateDtoValidator _validator;
         private readonly IMapper _mapper;
 
-        public CreateCityCommand(MFGContext context, CityValidator validator, IMapper mapper)
+        public CreateCityCommand(MFGContext context, CityCreateDtoValidator validator, IMapper mapper)
         {
             _context = context;
             _validator = validator;
@@ -36,7 +36,7 @@ namespace MFG.Implementation.Commands.CityCommands
 
         public string Name => "Create New City";
 
-        public void Execute(CityDto request)
+        public void Execute(CityCreateDto request)
         {
             _validator.ValidateAndThrow(request);
 

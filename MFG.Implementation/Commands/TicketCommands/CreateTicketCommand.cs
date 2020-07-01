@@ -15,9 +15,9 @@ namespace MFG.Implementation.Commands.TicketCommands
     {
         private readonly MFGContext _context;
         private readonly IMapper _mapper;
-        private readonly TicketValidator _validator;
+        private readonly TicketCreateDtoValidator _validator;
 
-        public CreateTicketCommand(MFGContext context, IMapper mapper, TicketValidator validator)
+        public CreateTicketCommand(MFGContext context, IMapper mapper, TicketCreateDtoValidator validator)
         {
             _context = context;
             _mapper = mapper;
@@ -28,7 +28,7 @@ namespace MFG.Implementation.Commands.TicketCommands
 
         public string Name => "Create Ticket";
 
-        public void Execute(TicketDto request)
+        public void Execute(TicketCreateDto request)
         {
             _validator.ValidateAndThrow(request);
 
