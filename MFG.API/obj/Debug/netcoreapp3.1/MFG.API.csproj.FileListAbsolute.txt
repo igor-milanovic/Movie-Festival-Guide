@@ -10,8 +10,6 @@ C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\bin\Debug\netcoreapp3.1\MF
 C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\obj\Debug\netcoreapp3.1\MFG.API.csprojAssemblyReference.cache
 C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\obj\Debug\netcoreapp3.1\MFG.API.AssemblyInfoInputs.cache
 C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\obj\Debug\netcoreapp3.1\MFG.API.AssemblyInfo.cs
-C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\obj\Debug\netcoreapp3.1\MFG.API.csproj.CoreCompileInputs.cache
-C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\obj\Debug\netcoreapp3.1\MFG.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\obj\Debug\netcoreapp3.1\MFG.API.RazorTargetAssemblyInfo.cache
 C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\obj\Debug\netcoreapp3.1\staticwebassets\MFG.API.StaticWebAssets.Manifest.cache
 C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\obj\Debug\netcoreapp3.1\staticwebassets\MFG.API.StaticWebAssets.xml
@@ -64,3 +62,17 @@ C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\bin\Debug\netcoreapp3.1\MF
 C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\bin\Debug\netcoreapp3.1\MFG.Implementation.pdb
 C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\bin\Debug\netcoreapp3.1\MFG.Domain.pdb
 C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\obj\Debug\netcoreapp3.1\MFG.API.csproj.CopyComplete
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\obj\Debug\netcoreapp3.1\MFG.API.csproj.CoreCompileInputs.cache
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\obj\Debug\netcoreapp3.1\MFG.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Igor\source\repos\MovieFestivalGuide\MFG.API\obj\Debug\netcoreapp3.1\MFG.API.MvcApplicationPartsAssemblyInfo.cache

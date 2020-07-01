@@ -3,6 +3,7 @@ using MFG.Application.DataTransfer;
 using MFG.Domain;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace MFG.Implementation.Profiles
@@ -11,7 +12,8 @@ namespace MFG.Implementation.Profiles
     {
         public MovieProfile()
         {
-            CreateMap<Movie, MovieDto>();
+            CreateMap<Movie, MovieDto>()
+                .ForMember(x => x.Directors, opt => opt.MapFrom(x => x.MovieDirectors.Select(x => x.DirectorID).ToList()));
             CreateMap<MovieDto, Movie>();
 
             CreateMap<Movie, MovieQueryDto>();

@@ -11,5 +11,7 @@ namespace MFG.Domain
         public string Name { get; set; }
 
         public virtual ICollection<User> Users { get; set; } = new HashSet<User>();
+
+        public virtual ICollection<RoleUseCase> RoleUseCases { get; set; } = new HashSet<RoleUseCase>();
     }
 }

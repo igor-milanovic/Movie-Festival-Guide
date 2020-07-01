@@ -33,9 +33,9 @@ namespace MFG.API.Controllers
 
         // GET api/<LocationController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get(int id, [FromServices] IGetLocationQuery query)
         {
-            return "value";
+            return Ok(_executor.ExecuteQuery(query, id));
         }
 
         // POST api/<LocationController>

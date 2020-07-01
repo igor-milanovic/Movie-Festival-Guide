@@ -17,7 +17,7 @@ namespace MFG.Domain
         public string Email { get; set; }
 
         public int RoleID { get; set; }
-
+        public virtual Role Role { get; set; }
         public virtual ICollection<TicketReservation> TicketReservations { get; set; } = new HashSet<TicketReservation>();
     }
 }

@@ -33,9 +33,9 @@ namespace MFG.API.Controllers
 
         // GET api/<TicketController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get(int id, [FromServices] IGetTicketQuery query)
         {
-            return "value";
+            return Ok(_executor.ExecuteQuery(query, id));
         }
 
         // POST api/<TicketController>

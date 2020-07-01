@@ -12,13 +12,13 @@ namespace MFG.DataAccess
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=.\SQLEXPRESS;Initial Catalog=testiranjeMFG;Integrated Security=True");
+            optionsBuilder.UseSqlServer(@"Data Source=.\SQLEXPRESS;Initial Catalog=MFG;Integrated Security=True");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             DataBaseHelper dbHelper = new DataBaseHelper();
-            // dbHelper.SetInitialValues(modelBuilder);
+            dbHelper.SetInitialValues(modelBuilder);
 
             modelBuilder.ApplyConfiguration(new CityConfiguration());
             modelBuilder.ApplyConfiguration(new DirectorConfiguration());
@@ -32,6 +32,18 @@ namespace MFG.DataAccess
             modelBuilder.ApplyConfiguration(new TicketConfiguration());
             modelBuilder.ApplyConfiguration(new TicketReservationConfiguration());
             modelBuilder.ApplyConfiguration(new UserConfiguration());
+
+            modelBuilder.Entity<City>().HasQueryFilter(x => !(x.DeletedAt != null));
+            modelBuilder.Entity<Director>().HasQueryFilter(x => !(x.DeletedAt != null));
+            modelBuilder.Entity<Festival>().HasQueryFilter(x => !(x.DeletedAt != null));
+            modelBuilder.Entity<Hall>().HasQueryFilter(x => !(x.DeletedAt != null));
+            modelBuilder.Entity<Location>().HasQueryFilter(x => !(x.DeletedAt != null));
+            modelBuilder.Entity<Movie>().HasQueryFilter(x => !(x.DeletedAt != null));
+            modelBuilder.Entity<Place>().HasQueryFilter(x => !(x.DeletedAt != null));
+            modelBuilder.Entity<Projection>().HasQueryFilter(x => !(x.DeletedAt != null));
+            modelBuilder.Entity<Ticket>().HasQueryFilter(x => !(x.DeletedAt != null));
+            modelBuilder.Entity<TicketReservation>().HasQueryFilter(x => !(x.DeletedAt != null));
+            modelBuilder.Entity<User>().HasQueryFilter(x => !(x.DeletedAt != null));
         }
 
         public override int SaveChanges()
@@ -70,5 +82,7 @@ namespace MFG.DataAccess
         public DbSet<Ticket> Tickets { get; set; }
         public DbSet<TicketReservation> TicketReservations { get; set; }
         public DbSet<User> Users { get; set; }
+        public DbSet<UseCaseLog> UseCaseLogs { get; set; }
+        public DbSet<RoleUseCase> RoleUseCases { get; set; }
     }
 }

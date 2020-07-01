@@ -28,7 +28,7 @@ namespace MFG.Implementation.Commands.MovieCommands
             _validator = validator;
         }
 
-        public int Id => 161;
+        public int Id => 163;
 
         public string Name => "Edit Movie";
 

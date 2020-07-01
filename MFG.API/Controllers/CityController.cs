@@ -18,32 +18,33 @@ namespace MFG.API.Controllers
     public class CityController : ControllerBase
     {
         private readonly IApplicationActor actor;
-        private readonly UseCaseExecutor executor;
+        private readonly UseCaseExecutor _executor;
 
         public CityController(IApplicationActor actor, UseCaseExecutor executor)
         {
             this.actor = actor;
-            this.executor = executor;
+            this._executor = executor;
         }
 
         // GET: api/<CityController>
         [HttpGet]
         public IActionResult Get([FromQuery] CitySearch search, [FromServices] IGetCitiesQuery query)
         {
-            return Ok(executor.ExecuteQuery(query, search));
+            return Ok(_executor.ExecuteQuery(query, search));
         }
 
         // GET api/<CityController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get(int id, [FromServices] IGetCityQuery query)
         {
-            return "value";
+            return Ok(_executor.ExecuteQuery(query, id));
         }
 
+        [HttpPost]
         // POST api/<CityController>
         public IActionResult Post([FromBody] CityDto obj, [FromServices] ICreateCityCommand command)
         {
-            executor.ExecuteCommand(command, obj);
+            _executor.ExecuteCommand(command, obj);
 
             return Ok("radi");
         }
@@ -53,7 +54,7 @@ namespace MFG.API.Controllers
         public IActionResult Put(int id, [FromBody] EditCityDto dto, [FromServices] IEditCityCommand command)
         {
             dto.Id = id;
-            executor.ExecuteCommand(command, dto);
+            _executor.ExecuteCommand(command, dto);
             return NoContent();
         }
 
@@ -61,7 +62,7 @@ namespace MFG.API.Controllers
         [HttpDelete("{id}")]
         public IActionResult Delete(int id, [FromServices] IDeleteCityCommand command)
         {
-            executor.ExecuteCommand(command, id);
+            _executor.ExecuteCommand(command, id);
             return NoContent();
         }
     }

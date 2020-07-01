@@ -377,7 +377,7 @@ namespace MFG.DataAccess.DBHelperClasses
                 new Role
                 {
                     Id=1,
-                    Name = "admin"
+                    Name = "user"
                 },
                 new Role
                 {
@@ -387,7 +387,7 @@ namespace MFG.DataAccess.DBHelperClasses
                 new Role
                 {
                     Id = 3,
-                    Name = "user"
+                    Name = "admin"
                 }
             };
 

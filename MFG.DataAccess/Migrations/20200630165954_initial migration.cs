@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace MFG.DataAccess.Migrations
 {
-    public partial class initial : Migration
+    public partial class initialmigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -318,7 +318,7 @@ namespace MFG.DataAccess.Migrations
                     TicketID = table.Column<int>(nullable: false),
                     Quantity = table.Column<int>(maxLength: 3, nullable: false),
                     TotalPrice = table.Column<decimal>(maxLength: 20, nullable: false),
-                    ReservationDate = table.Column<DateTime>(nullable: false, defaultValue: new DateTime(2020, 6, 27, 9, 50, 23, 492, DateTimeKind.Utc).AddTicks(397)),
+                    ReservationDate = table.Column<DateTime>(nullable: false, defaultValue: new DateTime(2020, 6, 30, 16, 59, 54, 40, DateTimeKind.Utc).AddTicks(2198)),
                     Bought = table.Column<DateTime>(nullable: true),
                     ReservationCode = table.Column<string>(maxLength: 10, nullable: false)
                 },
@@ -337,6 +337,85 @@ namespace MFG.DataAccess.Migrations
                         principalTable: "Users",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.InsertData(
+                table: "Cities",
+                columns: new[] { "Id", "CreatedAt", "DeletedAt", "IsActive", "ModifiedAt", "Name" },
+                values: new object[,]
+                {
+                    { 1, new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(458), null, true, null, "Beograd" },
+                    { 2, new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(2052), null, true, null, "Novi Sad" },
+                    { 3, new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(2106), null, true, null, "Niš" },
+                    { 4, new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(2125), null, true, null, "Vrnjačka banja" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Roles",
+                columns: new[] { "Id", "Name" },
+                values: new object[,]
+                {
+                    { 1, "user" },
+                    { 2, "seller" },
+                    { 3, "admin" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Locations",
+                columns: new[] { "Id", "CityID", "CreatedAt", "DeletedAt", "IsActive", "ModifiedAt", "Name" },
+                values: new object[,]
+                {
+                    { 1, 1, new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(5372), null, true, null, "Sava Centar" },
+                    { 2, 1, new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(5474), null, true, null, "Dom sindikata" },
+                    { 3, 1, new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(5494), null, true, null, "Dom omladine" },
+                    { 4, 1, new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(5513), null, true, null, "Centar za kulturu Vlada Divljan" },
+                    { 7, 2, new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(5557), null, true, null, "Kulturni centar Novog Sada" },
+                    { 8, 3, new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(5572), null, true, null, "Niški kulturni centar" },
+                    { 5, 4, new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), null, false, null, "Bioskop" },
+                    { 6, 4, new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(5538), null, true, null, "Letnja pozornica" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Halls",
+                columns: new[] { "Id", "CreatedAt", "DeletedAt", "IsActive", "LocationID", "ModifiedAt", "Name", "NumberOfSeats" },
+                values: new object[,]
+                {
+                    { 1, new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(9644), null, true, 1, null, "Sala 1", 412 },
+                    { 15, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(358), null, true, 5, null, "Sala 2", 278 },
+                    { 14, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(328), null, true, 5, null, "Sala 1", 125 },
+                    { 21, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(494), null, true, 8, null, "Sala 2", 279 },
+                    { 20, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(475), null, true, 8, null, "Sala 1", 324 },
+                    { 19, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(450), null, true, 7, null, "Velika sala", 1580 },
+                    { 18, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(426), null, true, 7, null, "Sala 2", 326 },
+                    { 17, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(402), null, true, 7, null, "Sala 1", 158 },
+                    { 13, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(309), null, true, 4, null, "Sala 2", 298 },
+                    { 16, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(377), null, true, 6, null, "Letnja pozornica", 370 },
+                    { 11, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(270), null, true, 3, null, "Sala amerikana", 200 },
+                    { 12, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(289), null, true, 4, null, "Sala 1", 78 },
+                    { 9, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(221), null, true, 2, null, "Sala 3", 72 },
+                    { 8, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(196), null, true, 2, null, "Sala 2", 78 },
+                    { 2, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(50), null, true, 1, null, "Aneks A", 198 },
+                    { 7, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(177), null, true, 2, null, "Sala 1", 1382 },
+                    { 3, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(79), null, true, 1, null, "Aneks B", 198 },
+                    { 6, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(152), null, true, 1, null, "Amfiteatar", 454 },
+                    { 10, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(250), null, true, 3, null, "Velika sala", 483 },
+                    { 5, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(123), null, true, 1, null, "Velika dvorana", 3672 },
+                    { 4, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(98), null, true, 1, null, "Japanski salon", 140 }
+                });
+
+            migrationBuilder.InsertData(
+                table: "Places",
+                columns: new[] { "Id", "CityID", "CreatedAt", "DeletedAt", "IsActive", "LocationID", "ModifiedAt" },
+                values: new object[,]
+                {
+                    { 2, 1, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(4968), null, true, 2, null },
+                    { 5, 4, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(5036), null, true, 5, null },
+                    { 7, 2, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(5095), null, true, 7, null },
+                    { 1, 1, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(4860), null, true, 1, null },
+                    { 4, 1, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(5017), null, true, 4, null },
+                    { 3, 1, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(4997), null, true, 3, null },
+                    { 8, 3, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(5114), null, true, 8, null },
+                    { 6, 4, new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(5061), null, true, 6, null }
                 });
 
             migrationBuilder.CreateIndex(
@@ -359,12 +438,6 @@ namespace MFG.DataAccess.Migrations
                 name: "IX_Locations_CityID",
                 table: "Locations",
                 column: "CityID");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Locations_Name",
-                table: "Locations",
-                column: "Name",
-                unique: true);
 
             migrationBuilder.CreateIndex(
                 name: "IX_MovieDirector_MovieID",

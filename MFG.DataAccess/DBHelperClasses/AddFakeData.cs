@@ -121,6 +121,7 @@ namespace MFG.DataAccess.DBHelperClasses
                 CreateFakeFestival(festivals, i);
             }
             context.Festivals.AddRange(festivals);
+            context.SaveChanges();
         }
 
         private void CreateFakeProjection(MFGContext context, int festivalID)
@@ -263,7 +264,7 @@ namespace MFG.DataAccess.DBHelperClasses
                     .RuleFor(x => x.Password, f => f.Internet.Password())
                     .RuleFor(x => x.CreatedAt, DateTime.UtcNow)
                     .RuleFor(x => x.IsActive, true)
-                    .RuleFor(x => x.RoleID, 3);
+                    .RuleFor(x => x.RoleID, 1);
 
                 fakeUsers.Add(fakeUser);
             }

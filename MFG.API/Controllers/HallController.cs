@@ -35,9 +35,9 @@ namespace MFG.API.Controllers
 
         // GET api/<HallController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get(int id, [FromServices] IGetHallQuery query)
         {
-            return "value";
+            return Ok(_executor.ExecuteQuery(query, id));
         }
 
         // POST api/<HallController>

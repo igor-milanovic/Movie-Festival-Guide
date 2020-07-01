@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MFG.DataAccess.Migrations
 {
     [DbContext(typeof(MFGContext))]
-    [Migration("20200627194656_Removed name - unique from location")]
-    partial class Removednameuniquefromlocation
+    [Migration("20200630165954_initial migration")]
+    partial class initialmigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -51,6 +51,36 @@ namespace MFG.DataAccess.Migrations
                         .IsUnique();
 
                     b.ToTable("Cities");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(458),
+                            IsActive = true,
+                            Name = "Beograd"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(2052),
+                            IsActive = true,
+                            Name = "Novi Sad"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(2106),
+                            IsActive = true,
+                            Name = "Niš"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(2125),
+                            IsActive = true,
+                            Name = "Vrnjačka banja"
+                        });
                 });
 
             modelBuilder.Entity("MFG.Domain.Director", b =>
@@ -170,6 +200,197 @@ namespace MFG.DataAccess.Migrations
                     b.HasIndex("LocationID");
 
                     b.ToTable("Halls");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(9644),
+                            IsActive = true,
+                            LocationID = 1,
+                            Name = "Sala 1",
+                            NumberOfSeats = 412
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(50),
+                            IsActive = true,
+                            LocationID = 1,
+                            Name = "Aneks A",
+                            NumberOfSeats = 198
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(79),
+                            IsActive = true,
+                            LocationID = 1,
+                            Name = "Aneks B",
+                            NumberOfSeats = 198
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(98),
+                            IsActive = true,
+                            LocationID = 1,
+                            Name = "Japanski salon",
+                            NumberOfSeats = 140
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(123),
+                            IsActive = true,
+                            LocationID = 1,
+                            Name = "Velika dvorana",
+                            NumberOfSeats = 3672
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(152),
+                            IsActive = true,
+                            LocationID = 1,
+                            Name = "Amfiteatar",
+                            NumberOfSeats = 454
+                        },
+                        new
+                        {
+                            Id = 7,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(177),
+                            IsActive = true,
+                            LocationID = 2,
+                            Name = "Sala 1",
+                            NumberOfSeats = 1382
+                        },
+                        new
+                        {
+                            Id = 8,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(196),
+                            IsActive = true,
+                            LocationID = 2,
+                            Name = "Sala 2",
+                            NumberOfSeats = 78
+                        },
+                        new
+                        {
+                            Id = 9,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(221),
+                            IsActive = true,
+                            LocationID = 2,
+                            Name = "Sala 3",
+                            NumberOfSeats = 72
+                        },
+                        new
+                        {
+                            Id = 10,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(250),
+                            IsActive = true,
+                            LocationID = 3,
+                            Name = "Velika sala",
+                            NumberOfSeats = 483
+                        },
+                        new
+                        {
+                            Id = 11,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(270),
+                            IsActive = true,
+                            LocationID = 3,
+                            Name = "Sala amerikana",
+                            NumberOfSeats = 200
+                        },
+                        new
+                        {
+                            Id = 12,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(289),
+                            IsActive = true,
+                            LocationID = 4,
+                            Name = "Sala 1",
+                            NumberOfSeats = 78
+                        },
+                        new
+                        {
+                            Id = 13,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(309),
+                            IsActive = true,
+                            LocationID = 4,
+                            Name = "Sala 2",
+                            NumberOfSeats = 298
+                        },
+                        new
+                        {
+                            Id = 14,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(328),
+                            IsActive = true,
+                            LocationID = 5,
+                            Name = "Sala 1",
+                            NumberOfSeats = 125
+                        },
+                        new
+                        {
+                            Id = 15,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(358),
+                            IsActive = true,
+                            LocationID = 5,
+                            Name = "Sala 2",
+                            NumberOfSeats = 278
+                        },
+                        new
+                        {
+                            Id = 16,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(377),
+                            IsActive = true,
+                            LocationID = 6,
+                            Name = "Letnja pozornica",
+                            NumberOfSeats = 370
+                        },
+                        new
+                        {
+                            Id = 17,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(402),
+                            IsActive = true,
+                            LocationID = 7,
+                            Name = "Sala 1",
+                            NumberOfSeats = 158
+                        },
+                        new
+                        {
+                            Id = 18,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(426),
+                            IsActive = true,
+                            LocationID = 7,
+                            Name = "Sala 2",
+                            NumberOfSeats = 326
+                        },
+                        new
+                        {
+                            Id = 19,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(450),
+                            IsActive = true,
+                            LocationID = 7,
+                            Name = "Velika sala",
+                            NumberOfSeats = 1580
+                        },
+                        new
+                        {
+                            Id = 20,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(475),
+                            IsActive = true,
+                            LocationID = 8,
+                            Name = "Sala 1",
+                            NumberOfSeats = 324
+                        },
+                        new
+                        {
+                            Id = 21,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(494),
+                            IsActive = true,
+                            LocationID = 8,
+                            Name = "Sala 2",
+                            NumberOfSeats = 279
+                        });
                 });
 
             modelBuilder.Entity("MFG.Domain.Location", b =>
@@ -204,6 +425,72 @@ namespace MFG.DataAccess.Migrations
                     b.HasIndex("CityID");
 
                     b.ToTable("Locations");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CityID = 1,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(5372),
+                            IsActive = true,
+                            Name = "Sava Centar"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CityID = 1,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(5474),
+                            IsActive = true,
+                            Name = "Dom sindikata"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CityID = 1,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(5494),
+                            IsActive = true,
+                            Name = "Dom omladine"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CityID = 1,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(5513),
+                            IsActive = true,
+                            Name = "Centar za kulturu Vlada Divljan"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CityID = 4,
+                            CreatedAt = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsActive = false,
+                            Name = "Bioskop"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CityID = 4,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(5538),
+                            IsActive = true,
+                            Name = "Letnja pozornica"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            CityID = 2,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(5557),
+                            IsActive = true,
+                            Name = "Kulturni centar Novog Sada"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            CityID = 3,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 954, DateTimeKind.Utc).AddTicks(5572),
+                            IsActive = true,
+                            Name = "Niški kulturni centar"
+                        });
                 });
 
             modelBuilder.Entity("MFG.Domain.Movie", b =>
@@ -296,6 +583,72 @@ namespace MFG.DataAccess.Migrations
                         .IsUnique();
 
                     b.ToTable("Places");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CityID = 1,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(4860),
+                            IsActive = true,
+                            LocationID = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CityID = 1,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(4968),
+                            IsActive = true,
+                            LocationID = 2
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CityID = 1,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(4997),
+                            IsActive = true,
+                            LocationID = 3
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CityID = 1,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(5017),
+                            IsActive = true,
+                            LocationID = 4
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CityID = 4,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(5036),
+                            IsActive = true,
+                            LocationID = 5
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CityID = 4,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(5061),
+                            IsActive = true,
+                            LocationID = 6
+                        },
+                        new
+                        {
+                            Id = 7,
+                            CityID = 2,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(5095),
+                            IsActive = true,
+                            LocationID = 7
+                        },
+                        new
+                        {
+                            Id = 8,
+                            CityID = 3,
+                            CreatedAt = new DateTime(2020, 6, 30, 16, 59, 53, 955, DateTimeKind.Utc).AddTicks(5114),
+                            IsActive = true,
+                            LocationID = 8
+                        });
                 });
 
             modelBuilder.Entity("MFG.Domain.Projection", b =>
@@ -356,6 +709,23 @@ namespace MFG.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Roles");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "user"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "seller"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "admin"
+                        });
                 });
 
             modelBuilder.Entity("MFG.Domain.Ticket", b =>
@@ -430,7 +800,7 @@ namespace MFG.DataAccess.Migrations
                     b.Property<DateTime>("ReservationDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2020, 6, 27, 19, 46, 55, 492, DateTimeKind.Utc).AddTicks(7593));
+                        .HasDefaultValue(new DateTime(2020, 6, 30, 16, 59, 54, 40, DateTimeKind.Utc).AddTicks(2198));
 
                     b.Property<int>("TicketID")
                         .HasColumnType("int");
