@@ -52,9 +52,9 @@ School project
 
 
 
-5.  MFG - Movie Festival Guide je mesto na gde mozete naci sve informacije o festivalima
+5.  Roles :
 
-Roles : 
+ 
 	Everyone can:
 		search through directors, movies, festivals, projections and tickets
 
