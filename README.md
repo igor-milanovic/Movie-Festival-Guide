@@ -69,9 +69,8 @@ Roles :
 		Can create / edit / cancel ticket reservations 
 			-> samo za vec registrovane Usere jer mora ID, nisam jos implementirao ako dodje neko ko nije registrovani korisnik...
 			-> Mozda moze da se stavi da kada kupac dodje na blagajnu, a nije rezervisao karte, prodavac stavlja svoj ID
-
-Can confirm that ticket reservations are picked (tickets sold)
-		Can see all TicketReservations and can search by multiple parametars
+		 Can confirm that ticket reservations are picked (tickets sold)
+		 Can see all TicketReservations and can search by multiple parametars
 
 	Admin :
 		Can promote other users to sellers or demote them to regular users
