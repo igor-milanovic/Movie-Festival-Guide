@@ -7,6 +7,7 @@ using MFG.Application.Commands.MovieCommands;
 using MFG.Application.DataTransfer;
 using MFG.Application.Queries;
 using MFG.Application.Searches;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -38,6 +39,7 @@ namespace MFG.API.Controllers
             return Ok(_executor.ExecuteQuery(query, id));
         }
 
+        [Authorize]
         // POST api/<MovieController>
         [HttpPost]
         public IActionResult Post([FromBody] MovieDto dto, [FromServices] ICreateMovieCommand command)
@@ -46,6 +48,7 @@ namespace MFG.API.Controllers
             return Ok("uneot");
         }
 
+        [Authorize]
         // PUT api/<MovieController>/5
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] MovieDto dto, [FromServices] IEditMovieCommand command)
@@ -55,6 +58,7 @@ namespace MFG.API.Controllers
             return NoContent();
         }
 
+        [Authorize]
         // DELETE api/<MovieController>/5
         [HttpDelete("{id}")]
         public IActionResult Delete(int id, [FromServices] IDeleteMovieCommand command)

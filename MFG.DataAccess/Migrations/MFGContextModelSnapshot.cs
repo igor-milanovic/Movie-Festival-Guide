@@ -54,28 +54,28 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 623, DateTimeKind.Utc).AddTicks(3704),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 592, DateTimeKind.Utc).AddTicks(3773),
                             IsActive = true,
                             Name = "Beograd"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 623, DateTimeKind.Utc).AddTicks(5195),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 592, DateTimeKind.Utc).AddTicks(5298),
                             IsActive = true,
                             Name = "Novi Sad"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 623, DateTimeKind.Utc).AddTicks(5259),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 592, DateTimeKind.Utc).AddTicks(5352),
                             IsActive = true,
                             Name = "Niš"
                         },
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 623, DateTimeKind.Utc).AddTicks(5279),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 592, DateTimeKind.Utc).AddTicks(5371),
                             IsActive = true,
                             Name = "Vrnjačka banja"
                         });
@@ -203,7 +203,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 624, DateTimeKind.Utc).AddTicks(2099),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3047),
                             IsActive = true,
                             LocationID = 1,
                             Name = "Sala 1",
@@ -212,7 +212,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 624, DateTimeKind.Utc).AddTicks(2211),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3164),
                             IsActive = true,
                             LocationID = 1,
                             Name = "Aneks A",
@@ -221,7 +221,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 624, DateTimeKind.Utc).AddTicks(2231),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3184),
                             IsActive = true,
                             LocationID = 1,
                             Name = "Aneks B",
@@ -230,7 +230,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 624, DateTimeKind.Utc).AddTicks(2245),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3204),
                             IsActive = true,
                             LocationID = 1,
                             Name = "Japanski salon",
@@ -239,7 +239,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 5,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 624, DateTimeKind.Utc).AddTicks(2265),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3218),
                             IsActive = true,
                             LocationID = 1,
                             Name = "Velika dvorana",
@@ -248,7 +248,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 6,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 624, DateTimeKind.Utc).AddTicks(2284),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3243),
                             IsActive = true,
                             LocationID = 1,
                             Name = "Amfiteatar",
@@ -257,7 +257,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 7,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 624, DateTimeKind.Utc).AddTicks(2304),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3262),
                             IsActive = true,
                             LocationID = 2,
                             Name = "Sala 1",
@@ -266,7 +266,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 8,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 624, DateTimeKind.Utc).AddTicks(2319),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3277),
                             IsActive = true,
                             LocationID = 2,
                             Name = "Sala 2",
@@ -275,7 +275,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 9,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 624, DateTimeKind.Utc).AddTicks(2333),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3296),
                             IsActive = true,
                             LocationID = 2,
                             Name = "Sala 3",
@@ -284,7 +284,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 10,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 624, DateTimeKind.Utc).AddTicks(2353),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3316),
                             IsActive = true,
                             LocationID = 3,
                             Name = "Velika sala",
@@ -293,7 +293,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 11,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 624, DateTimeKind.Utc).AddTicks(2372),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3331),
                             IsActive = true,
                             LocationID = 3,
                             Name = "Sala amerikana",
@@ -302,7 +302,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 12,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 624, DateTimeKind.Utc).AddTicks(2392),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3350),
                             IsActive = true,
                             LocationID = 4,
                             Name = "Sala 1",
@@ -311,7 +311,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 13,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 624, DateTimeKind.Utc).AddTicks(2407),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3365),
                             IsActive = true,
                             LocationID = 4,
                             Name = "Sala 2",
@@ -320,7 +320,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 14,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 624, DateTimeKind.Utc).AddTicks(2421),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3380),
                             IsActive = true,
                             LocationID = 5,
                             Name = "Sala 1",
@@ -329,7 +329,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 15,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 624, DateTimeKind.Utc).AddTicks(2441),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3399),
                             IsActive = true,
                             LocationID = 5,
                             Name = "Sala 2",
@@ -338,7 +338,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 16,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 624, DateTimeKind.Utc).AddTicks(2456),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3414),
                             IsActive = true,
                             LocationID = 6,
                             Name = "Letnja pozornica",
@@ -347,7 +347,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 17,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 624, DateTimeKind.Utc).AddTicks(2470),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3428),
                             IsActive = true,
                             LocationID = 7,
                             Name = "Sala 1",
@@ -356,7 +356,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 18,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 624, DateTimeKind.Utc).AddTicks(2524),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3448),
                             IsActive = true,
                             LocationID = 7,
                             Name = "Sala 2",
@@ -365,7 +365,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 19,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 624, DateTimeKind.Utc).AddTicks(2539),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3468),
                             IsActive = true,
                             LocationID = 7,
                             Name = "Velika sala",
@@ -374,7 +374,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 20,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 624, DateTimeKind.Utc).AddTicks(2558),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3482),
                             IsActive = true,
                             LocationID = 8,
                             Name = "Sala 1",
@@ -383,7 +383,7 @@ namespace MFG.DataAccess.Migrations
                         new
                         {
                             Id = 21,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 624, DateTimeKind.Utc).AddTicks(2573),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(3531),
                             IsActive = true,
                             LocationID = 8,
                             Name = "Sala 2",
@@ -429,7 +429,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 1,
                             CityID = 1,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 623, DateTimeKind.Utc).AddTicks(8197),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 592, DateTimeKind.Utc).AddTicks(8833),
                             IsActive = true,
                             Name = "Sava Centar"
                         },
@@ -437,7 +437,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 2,
                             CityID = 1,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 623, DateTimeKind.Utc).AddTicks(8300),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 592, DateTimeKind.Utc).AddTicks(8965),
                             IsActive = true,
                             Name = "Dom sindikata"
                         },
@@ -445,7 +445,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 3,
                             CityID = 1,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 623, DateTimeKind.Utc).AddTicks(8319),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 592, DateTimeKind.Utc).AddTicks(8984),
                             IsActive = true,
                             Name = "Dom omladine"
                         },
@@ -453,7 +453,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 4,
                             CityID = 1,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 623, DateTimeKind.Utc).AddTicks(8334),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 592, DateTimeKind.Utc).AddTicks(9004),
                             IsActive = true,
                             Name = "Centar za kulturu Vlada Divljan"
                         },
@@ -469,7 +469,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 6,
                             CityID = 4,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 623, DateTimeKind.Utc).AddTicks(8359),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 592, DateTimeKind.Utc).AddTicks(9033),
                             IsActive = true,
                             Name = "Letnja pozornica"
                         },
@@ -477,7 +477,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 7,
                             CityID = 2,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 623, DateTimeKind.Utc).AddTicks(8373),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 592, DateTimeKind.Utc).AddTicks(9048),
                             IsActive = true,
                             Name = "Kulturni centar Novog Sada"
                         },
@@ -485,7 +485,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 8,
                             CityID = 3,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 623, DateTimeKind.Utc).AddTicks(8393),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 592, DateTimeKind.Utc).AddTicks(9063),
                             IsActive = true,
                             Name = "Niški kulturni centar"
                         });
@@ -587,7 +587,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 1,
                             CityID = 1,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 625, DateTimeKind.Utc).AddTicks(2419),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(6934),
                             IsActive = true,
                             LocationID = 1
                         },
@@ -595,7 +595,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 2,
                             CityID = 1,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 625, DateTimeKind.Utc).AddTicks(2683),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(7022),
                             IsActive = true,
                             LocationID = 2
                         },
@@ -603,7 +603,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 3,
                             CityID = 1,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 625, DateTimeKind.Utc).AddTicks(2707),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(7042),
                             IsActive = true,
                             LocationID = 3
                         },
@@ -611,7 +611,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 4,
                             CityID = 1,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 625, DateTimeKind.Utc).AddTicks(2732),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(7061),
                             IsActive = true,
                             LocationID = 4
                         },
@@ -619,7 +619,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 5,
                             CityID = 4,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 625, DateTimeKind.Utc).AddTicks(2756),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(7076),
                             IsActive = true,
                             LocationID = 5
                         },
@@ -627,7 +627,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 6,
                             CityID = 4,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 625, DateTimeKind.Utc).AddTicks(2786),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(7100),
                             IsActive = true,
                             LocationID = 6
                         },
@@ -635,7 +635,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 7,
                             CityID = 2,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 625, DateTimeKind.Utc).AddTicks(2810),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(7115),
                             IsActive = true,
                             LocationID = 7
                         },
@@ -643,7 +643,7 @@ namespace MFG.DataAccess.Migrations
                         {
                             Id = 8,
                             CityID = 3,
-                            CreatedAt = new DateTime(2020, 6, 30, 23, 22, 59, 625, DateTimeKind.Utc).AddTicks(2830),
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 593, DateTimeKind.Utc).AddTicks(7139),
                             IsActive = true,
                             LocationID = 8
                         });
@@ -744,6 +744,494 @@ namespace MFG.DataAccess.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("RoleUseCases");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            RoleId = 1,
+                            UseCaseId = 1101
+                        },
+                        new
+                        {
+                            Id = 2,
+                            RoleId = 1,
+                            UseCaseId = 1102
+                        },
+                        new
+                        {
+                            Id = 3,
+                            RoleId = 1,
+                            UseCaseId = 1103
+                        },
+                        new
+                        {
+                            Id = 4,
+                            RoleId = 1,
+                            UseCaseId = 2102
+                        },
+                        new
+                        {
+                            Id = 5,
+                            RoleId = 1,
+                            UseCaseId = 1113
+                        },
+                        new
+                        {
+                            Id = 6,
+                            RoleId = 1,
+                            UseCaseId = 222
+                        },
+                        new
+                        {
+                            Id = 7,
+                            RoleId = 1,
+                            UseCaseId = 221
+                        },
+                        new
+                        {
+                            Id = 8,
+                            RoleId = 1,
+                            UseCaseId = 232
+                        },
+                        new
+                        {
+                            Id = 9,
+                            RoleId = 1,
+                            UseCaseId = 231
+                        },
+                        new
+                        {
+                            Id = 10,
+                            RoleId = 1,
+                            UseCaseId = 262
+                        },
+                        new
+                        {
+                            Id = 11,
+                            RoleId = 1,
+                            UseCaseId = 261
+                        },
+                        new
+                        {
+                            Id = 12,
+                            RoleId = 1,
+                            UseCaseId = 282
+                        },
+                        new
+                        {
+                            Id = 13,
+                            RoleId = 1,
+                            UseCaseId = 281
+                        },
+                        new
+                        {
+                            Id = 14,
+                            RoleId = 1,
+                            UseCaseId = 292
+                        },
+                        new
+                        {
+                            Id = 15,
+                            RoleId = 1,
+                            UseCaseId = 291
+                        },
+                        new
+                        {
+                            Id = 16,
+                            RoleId = 2,
+                            UseCaseId = 1104
+                        },
+                        new
+                        {
+                            Id = 17,
+                            RoleId = 2,
+                            UseCaseId = 2102
+                        },
+                        new
+                        {
+                            Id = 18,
+                            RoleId = 2,
+                            UseCaseId = 1113
+                        },
+                        new
+                        {
+                            Id = 19,
+                            RoleId = 2,
+                            UseCaseId = 222
+                        },
+                        new
+                        {
+                            Id = 20,
+                            RoleId = 2,
+                            UseCaseId = 221
+                        },
+                        new
+                        {
+                            Id = 21,
+                            RoleId = 2,
+                            UseCaseId = 232
+                        },
+                        new
+                        {
+                            Id = 22,
+                            RoleId = 2,
+                            UseCaseId = 231
+                        },
+                        new
+                        {
+                            Id = 23,
+                            RoleId = 2,
+                            UseCaseId = 262
+                        },
+                        new
+                        {
+                            Id = 24,
+                            RoleId = 2,
+                            UseCaseId = 261
+                        },
+                        new
+                        {
+                            Id = 25,
+                            RoleId = 2,
+                            UseCaseId = 282
+                        },
+                        new
+                        {
+                            Id = 26,
+                            RoleId = 2,
+                            UseCaseId = 281
+                        },
+                        new
+                        {
+                            Id = 27,
+                            RoleId = 2,
+                            UseCaseId = 292
+                        },
+                        new
+                        {
+                            Id = 28,
+                            RoleId = 2,
+                            UseCaseId = 291
+                        },
+                        new
+                        {
+                            Id = 29,
+                            RoleId = 3,
+                            UseCaseId = 222
+                        },
+                        new
+                        {
+                            Id = 30,
+                            RoleId = 3,
+                            UseCaseId = 221
+                        },
+                        new
+                        {
+                            Id = 31,
+                            RoleId = 3,
+                            UseCaseId = 232
+                        },
+                        new
+                        {
+                            Id = 32,
+                            RoleId = 3,
+                            UseCaseId = 231
+                        },
+                        new
+                        {
+                            Id = 33,
+                            RoleId = 3,
+                            UseCaseId = 262
+                        },
+                        new
+                        {
+                            Id = 34,
+                            RoleId = 3,
+                            UseCaseId = 261
+                        },
+                        new
+                        {
+                            Id = 35,
+                            RoleId = 3,
+                            UseCaseId = 282
+                        },
+                        new
+                        {
+                            Id = 36,
+                            RoleId = 3,
+                            UseCaseId = 281
+                        },
+                        new
+                        {
+                            Id = 37,
+                            RoleId = 3,
+                            UseCaseId = 292
+                        },
+                        new
+                        {
+                            Id = 38,
+                            RoleId = 3,
+                            UseCaseId = 291
+                        },
+                        new
+                        {
+                            Id = 39,
+                            RoleId = 3,
+                            UseCaseId = 1113
+                        },
+                        new
+                        {
+                            Id = 40,
+                            RoleId = 3,
+                            UseCaseId = 1121
+                        },
+                        new
+                        {
+                            Id = 41,
+                            RoleId = 3,
+                            UseCaseId = 111
+                        },
+                        new
+                        {
+                            Id = 42,
+                            RoleId = 3,
+                            UseCaseId = 112
+                        },
+                        new
+                        {
+                            Id = 43,
+                            RoleId = 3,
+                            UseCaseId = 113
+                        },
+                        new
+                        {
+                            Id = 44,
+                            RoleId = 3,
+                            UseCaseId = 121
+                        },
+                        new
+                        {
+                            Id = 45,
+                            RoleId = 3,
+                            UseCaseId = 122
+                        },
+                        new
+                        {
+                            Id = 46,
+                            RoleId = 3,
+                            UseCaseId = 123
+                        },
+                        new
+                        {
+                            Id = 47,
+                            RoleId = 3,
+                            UseCaseId = 131
+                        },
+                        new
+                        {
+                            Id = 48,
+                            RoleId = 3,
+                            UseCaseId = 132
+                        },
+                        new
+                        {
+                            Id = 49,
+                            RoleId = 3,
+                            UseCaseId = 133
+                        },
+                        new
+                        {
+                            Id = 50,
+                            RoleId = 3,
+                            UseCaseId = 141
+                        },
+                        new
+                        {
+                            Id = 51,
+                            RoleId = 3,
+                            UseCaseId = 142
+                        },
+                        new
+                        {
+                            Id = 52,
+                            RoleId = 3,
+                            UseCaseId = 143
+                        },
+                        new
+                        {
+                            Id = 53,
+                            RoleId = 3,
+                            UseCaseId = 151
+                        },
+                        new
+                        {
+                            Id = 54,
+                            RoleId = 3,
+                            UseCaseId = 152
+                        },
+                        new
+                        {
+                            Id = 55,
+                            RoleId = 3,
+                            UseCaseId = 153
+                        },
+                        new
+                        {
+                            Id = 56,
+                            RoleId = 3,
+                            UseCaseId = 161
+                        },
+                        new
+                        {
+                            Id = 57,
+                            RoleId = 3,
+                            UseCaseId = 162
+                        },
+                        new
+                        {
+                            Id = 58,
+                            RoleId = 3,
+                            UseCaseId = 163
+                        },
+                        new
+                        {
+                            Id = 59,
+                            RoleId = 3,
+                            UseCaseId = 171
+                        },
+                        new
+                        {
+                            Id = 60,
+                            RoleId = 3,
+                            UseCaseId = 172
+                        },
+                        new
+                        {
+                            Id = 61,
+                            RoleId = 3,
+                            UseCaseId = 173
+                        },
+                        new
+                        {
+                            Id = 62,
+                            RoleId = 3,
+                            UseCaseId = 181
+                        },
+                        new
+                        {
+                            Id = 63,
+                            RoleId = 3,
+                            UseCaseId = 182
+                        },
+                        new
+                        {
+                            Id = 64,
+                            RoleId = 3,
+                            UseCaseId = 183
+                        },
+                        new
+                        {
+                            Id = 65,
+                            RoleId = 3,
+                            UseCaseId = 191
+                        },
+                        new
+                        {
+                            Id = 66,
+                            RoleId = 3,
+                            UseCaseId = 192
+                        },
+                        new
+                        {
+                            Id = 67,
+                            RoleId = 3,
+                            UseCaseId = 193
+                        },
+                        new
+                        {
+                            Id = 68,
+                            RoleId = 3,
+                            UseCaseId = 1112
+                        },
+                        new
+                        {
+                            Id = 69,
+                            RoleId = 3,
+                            UseCaseId = 211
+                        },
+                        new
+                        {
+                            Id = 70,
+                            RoleId = 3,
+                            UseCaseId = 212
+                        },
+                        new
+                        {
+                            Id = 71,
+                            RoleId = 3,
+                            UseCaseId = 242
+                        },
+                        new
+                        {
+                            Id = 72,
+                            RoleId = 3,
+                            UseCaseId = 241
+                        },
+                        new
+                        {
+                            Id = 73,
+                            RoleId = 3,
+                            UseCaseId = 251
+                        },
+                        new
+                        {
+                            Id = 74,
+                            RoleId = 3,
+                            UseCaseId = 252
+                        },
+                        new
+                        {
+                            Id = 75,
+                            RoleId = 3,
+                            UseCaseId = 271
+                        },
+                        new
+                        {
+                            Id = 76,
+                            RoleId = 3,
+                            UseCaseId = 272
+                        },
+                        new
+                        {
+                            Id = 77,
+                            RoleId = 3,
+                            UseCaseId = 2101
+                        },
+                        new
+                        {
+                            Id = 78,
+                            RoleId = 3,
+                            UseCaseId = 2102
+                        },
+                        new
+                        {
+                            Id = 79,
+                            RoleId = 3,
+                            UseCaseId = 2111
+                        },
+                        new
+                        {
+                            Id = 80,
+                            RoleId = 3,
+                            UseCaseId = 2111
+                        },
+                        new
+                        {
+                            Id = 81,
+                            RoleId = 3,
+                            UseCaseId = 2121
+                        });
                 });
 
             modelBuilder.Entity("MFG.Domain.Ticket", b =>
@@ -818,7 +1306,7 @@ namespace MFG.DataAccess.Migrations
                     b.Property<DateTime>("ReservationDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2020, 6, 30, 23, 22, 59, 734, DateTimeKind.Utc).AddTicks(2134));
+                        .HasDefaultValue(new DateTime(2020, 7, 1, 1, 47, 29, 688, DateTimeKind.Utc).AddTicks(4313));
 
                     b.Property<int>("TicketID")
                         .HasColumnType("int");
@@ -924,6 +1412,32 @@ namespace MFG.DataAccess.Migrations
                         .HasFilter("[Username] IS NOT NULL");
 
                     b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 594, DateTimeKind.Utc).AddTicks(9944),
+                            Email = "pera@gmail.com",
+                            FirstName = "Petar",
+                            IsActive = true,
+                            LastName = "Peric",
+                            Password = "sifra123",
+                            RoleID = 3,
+                            Username = "petko"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreatedAt = new DateTime(2020, 7, 1, 1, 47, 29, 595, DateTimeKind.Utc).AddTicks(105),
+                            Email = "miki@gmail.com",
+                            FirstName = "Mitar",
+                            IsActive = true,
+                            LastName = "Miric",
+                            Password = "sifra123",
+                            RoleID = 2,
+                            Username = "miki"
+                        });
                 });
 
             modelBuilder.Entity("MFG.Domain.Festival", b =>

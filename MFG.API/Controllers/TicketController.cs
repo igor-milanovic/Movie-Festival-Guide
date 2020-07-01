@@ -7,6 +7,7 @@ using MFG.Application.Commands.TicketCommands;
 using MFG.Application.DataTransfer;
 using MFG.Application.Queries;
 using MFG.Application.Searches;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -38,6 +39,7 @@ namespace MFG.API.Controllers
             return Ok(_executor.ExecuteQuery(query, id));
         }
 
+        [Authorize]
         // POST api/<TicketController>
         [HttpPost]
         public IActionResult Post([FromBody] TicketDto dto, [FromServices] ICreateTicketCommand command)
@@ -46,6 +48,7 @@ namespace MFG.API.Controllers
             return Ok("uneto");
         }
 
+        [Authorize]
         // PUT api/<TicketController>/5
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] TicketDto dto, [FromServices] IEditTicketCommand command)
@@ -55,6 +58,7 @@ namespace MFG.API.Controllers
             return NoContent();
         }
 
+        [Authorize]
         // DELETE api/<TicketController>/5
         [HttpDelete("{id}")]
         public IActionResult Delete(int id, [FromServices] IDeleteTicketCommand command)

@@ -7,6 +7,7 @@ using MFG.Application.Commands.DirectorCommands;
 using MFG.Application.DataTransfer;
 using MFG.Application.Queries;
 using MFG.Application.Searches;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -40,6 +41,7 @@ namespace MFG.API.Controllers
             return Ok(_executor.ExecuteQuery(query, id));
         }
 
+        [Authorize]
         // POST api/<DirectorController>
         [HttpPost]
         public IActionResult Post([FromBody] DirectorDto dto, [FromServices] ICreateDirectorCommand command)
@@ -48,6 +50,7 @@ namespace MFG.API.Controllers
             return Ok("radi");
         }
 
+        [Authorize]
         // PUT api/<DirectorController>/5
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] DirectorDto dto, [FromServices] IEditDirectorCommand command)
@@ -57,6 +60,7 @@ namespace MFG.API.Controllers
             return NoContent();
         }
 
+        [Authorize]
         // DELETE api/<DirectorController>/5
         [HttpDelete("{id}")]
         public IActionResult Delete(int id, [FromServices] IDeleteDirectorCommand command)

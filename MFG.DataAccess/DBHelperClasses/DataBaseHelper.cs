@@ -391,11 +391,535 @@ namespace MFG.DataAccess.DBHelperClasses
                 }
             };
 
+            List<RoleUseCase> ruc = new List<RoleUseCase>
+
+            {
+                new RoleUseCase
+                {
+                    Id=1,
+                    RoleId= 1 ,
+                    UseCaseId= 1101
+                },
+                new RoleUseCase
+                {
+                    Id=2,
+                    RoleId= 1 ,
+                    UseCaseId= 1102
+                },
+                new RoleUseCase
+                {
+                    Id=3,
+                    RoleId= 1 ,
+                    UseCaseId= 1103
+                },
+                new RoleUseCase
+                {
+                    Id=4,
+                    RoleId= 1 ,
+                    UseCaseId= 2102
+                },
+                new RoleUseCase
+                {
+                    Id=5,
+                    RoleId= 1 ,
+                    UseCaseId= 1113
+                },
+                new RoleUseCase
+                {
+                    Id=6,
+                    RoleId= 1 ,
+                    UseCaseId= 222
+                },
+
+                new RoleUseCase
+                {
+                    Id=7,
+                    RoleId= 1 ,
+                    UseCaseId= 221
+                },
+                new RoleUseCase
+                {
+                    Id=8,
+                    RoleId= 1 ,
+                    UseCaseId= 232
+                },
+                new RoleUseCase
+                {
+                    Id=9,
+                    RoleId= 1 ,
+                    UseCaseId= 231
+                },
+                new RoleUseCase
+                {
+                    Id=10,
+                    RoleId= 1 ,
+                    UseCaseId= 262
+                },
+                new RoleUseCase
+                {
+                    Id=11,
+                    RoleId= 1 ,
+                    UseCaseId= 261
+                },
+                new RoleUseCase
+                {
+                    Id=12,
+                    RoleId= 1 ,
+                    UseCaseId= 282
+                },
+                new RoleUseCase
+                {
+                    Id=13,
+                    RoleId= 1 ,
+                    UseCaseId= 281
+                },
+                new RoleUseCase
+                {
+                    Id=14,
+                    RoleId= 1 ,
+                    UseCaseId= 292
+                },
+                new RoleUseCase
+                {
+                    Id=15,
+                    RoleId= 1 ,
+                    UseCaseId= 291
+                },
+                new RoleUseCase
+                {
+                    Id=16,
+                    RoleId= 2 ,
+                    UseCaseId= 1104
+                },
+                new RoleUseCase
+                {
+                    Id=17,
+                    RoleId= 2 ,
+                    UseCaseId= 2102
+                },
+                new RoleUseCase
+                {
+                    Id=18,
+                    RoleId= 2 ,
+                    UseCaseId= 1113
+                },
+                new RoleUseCase
+                {
+                    Id=19,
+                    RoleId= 2 ,
+                    UseCaseId= 222
+                },
+
+                new RoleUseCase
+                {
+                    Id=20,
+                    RoleId= 2 ,
+                    UseCaseId= 221
+                },
+                new RoleUseCase
+                {
+                    Id=21,
+                    RoleId= 2 ,
+                    UseCaseId= 232
+                },
+                new RoleUseCase
+                {
+                    Id=22,
+                    RoleId= 2 ,
+                    UseCaseId= 231
+                },
+                new RoleUseCase
+                {
+                    Id=23,
+                    RoleId= 2 ,
+                    UseCaseId= 262
+                },
+                new RoleUseCase
+                {
+                    Id=24,
+                    RoleId= 2 ,
+                    UseCaseId= 261
+                },
+                new RoleUseCase
+                {
+                    Id=25,
+                    RoleId= 2 ,
+                    UseCaseId= 282
+                },
+                new RoleUseCase
+                {
+                    Id=26,
+                    RoleId= 2 ,
+                    UseCaseId= 281
+                },
+                new RoleUseCase
+                {
+                    Id=27,
+                    RoleId= 2 ,
+                    UseCaseId= 292
+                },
+                new RoleUseCase
+                {
+                    Id=28,
+                    RoleId= 2 ,
+                    UseCaseId= 291
+                },
+                new RoleUseCase
+                {
+                    Id=29,
+                    RoleId= 3 ,
+                    UseCaseId= 222
+                },
+
+                new RoleUseCase
+                {
+                    Id=30,
+                    RoleId= 3 ,
+                    UseCaseId= 221
+                },
+                new RoleUseCase
+                {
+                    Id=31,
+                    RoleId= 3 ,
+                    UseCaseId= 232
+                },
+                new RoleUseCase
+                {
+                    Id=32,
+                    RoleId= 3 ,
+                    UseCaseId= 231
+                },
+                new RoleUseCase
+                {
+                    Id=33,
+                    RoleId= 3 ,
+                    UseCaseId= 262
+                },
+                new RoleUseCase
+                {
+                    Id=34,
+                    RoleId= 3 ,
+                    UseCaseId= 261
+                },
+                new RoleUseCase
+                {
+                    Id=35,
+                    RoleId= 3 ,
+                    UseCaseId= 282
+                },
+                new RoleUseCase
+                {
+                    Id=36,
+                    RoleId= 3 ,
+                    UseCaseId= 281
+                },
+                new RoleUseCase
+                {
+                    Id=37,
+                    RoleId= 3 ,
+                    UseCaseId= 292
+                },
+                new RoleUseCase
+                {
+                    Id=38,
+                    RoleId= 3 ,
+                    UseCaseId= 291
+                },
+                new RoleUseCase
+                {
+                    Id=39,
+                    RoleId= 3 ,
+                    UseCaseId= 1113
+                },
+                new RoleUseCase
+                {
+                    Id=40,
+                    RoleId= 3 ,
+                    UseCaseId= 1121
+                },
+                new RoleUseCase
+                {
+                    Id=41,
+                    RoleId= 3 ,
+                    UseCaseId= 111
+                },
+                new RoleUseCase
+                {
+                    Id=42,
+                    RoleId= 3 ,
+                    UseCaseId= 112
+                },
+                new RoleUseCase
+                {
+                    Id=43,
+                    RoleId= 3 ,
+                    UseCaseId= 113
+                },
+                new RoleUseCase
+                {
+                    Id=44,
+                    RoleId= 3 ,
+                    UseCaseId= 121
+                },
+                new RoleUseCase
+                {
+                    Id=45,
+                    RoleId= 3 ,
+                    UseCaseId= 122
+                },
+                new RoleUseCase
+                {
+                    Id=46,
+                    RoleId= 3 ,
+                    UseCaseId= 123
+                },
+                new RoleUseCase
+                {
+                    Id=47,
+                    RoleId= 3 ,
+                    UseCaseId= 131
+                },
+                new RoleUseCase
+                {
+                    Id=48,
+                    RoleId= 3 ,
+                    UseCaseId= 132
+                },
+                new RoleUseCase
+                {
+                    Id=49,
+                    RoleId= 3 ,
+                    UseCaseId= 133
+                },
+                new RoleUseCase
+                {
+                    Id=50,
+                    RoleId= 3 ,
+                    UseCaseId= 141
+                },
+                new RoleUseCase
+                {
+                    Id=51,
+                    RoleId= 3 ,
+                    UseCaseId= 142
+                },
+                new RoleUseCase
+                {
+                    Id=52,
+                    RoleId= 3 ,
+                    UseCaseId= 143
+                },
+                new RoleUseCase
+                {
+                    Id=53,
+                    RoleId= 3 ,
+                    UseCaseId= 151
+                },
+                new RoleUseCase
+                {
+                    Id=54,
+                    RoleId= 3 ,
+                    UseCaseId= 152
+                },
+                new RoleUseCase
+                {
+                    Id=55,
+                    RoleId= 3 ,
+                    UseCaseId= 153
+                },
+                new RoleUseCase
+                {
+                    Id=56,
+                    RoleId= 3 ,
+                    UseCaseId= 161
+                },
+                new RoleUseCase
+                {
+                    Id=57,
+                    RoleId= 3 ,
+                    UseCaseId= 162
+                },
+                new RoleUseCase
+                {
+                    Id=58,
+                    RoleId= 3 ,
+                    UseCaseId= 163
+                },
+                new RoleUseCase
+                {
+                    Id=59,
+                    RoleId= 3 ,
+                    UseCaseId= 171
+                },
+                new RoleUseCase
+                {
+                    Id=60,
+                    RoleId= 3 ,
+                    UseCaseId= 172
+                },
+                new RoleUseCase
+                {
+                    Id=61,
+                    RoleId= 3 ,
+                    UseCaseId= 173
+                },
+
+                new RoleUseCase
+                {
+                    Id=62,
+                    RoleId= 3 ,
+                    UseCaseId= 181
+                },
+                new RoleUseCase
+                {
+                    Id=63,
+                    RoleId= 3 ,
+                    UseCaseId= 182
+                },
+                new RoleUseCase
+                {
+                    Id=64,
+                    RoleId= 3 ,
+                    UseCaseId= 183
+                },
+                new RoleUseCase
+                {
+                    Id=65,
+                    RoleId= 3 ,
+                    UseCaseId= 191
+                },
+                new RoleUseCase
+                {
+                    Id=66,
+                    RoleId= 3 ,
+                    UseCaseId= 192
+                },
+                new RoleUseCase
+                {
+                    Id=67,
+                    RoleId= 3 ,
+                    UseCaseId= 193
+                },
+                new RoleUseCase
+                {
+                    Id=68,
+                    RoleId= 3 ,
+                    UseCaseId= 1112
+                },
+                new RoleUseCase
+                {
+                    Id=69,
+                    RoleId= 3 ,
+                    UseCaseId= 211
+                },
+                new RoleUseCase
+                {
+                    Id=70,
+                    RoleId= 3 ,
+                    UseCaseId= 212
+                },
+                new RoleUseCase
+                {
+                    Id=71,
+                    RoleId= 3 ,
+                    UseCaseId= 242
+                },
+                new RoleUseCase
+                {
+                    Id=72,
+                    RoleId= 3 ,
+                    UseCaseId= 241
+                },
+                new RoleUseCase
+                {
+                    Id=73,
+                    RoleId= 3 ,
+                    UseCaseId= 251
+                },
+                new RoleUseCase
+                {
+                    Id=74,
+                    RoleId= 3 ,
+                    UseCaseId= 252
+                },
+                new RoleUseCase
+                {
+                    Id=75,
+                    RoleId= 3 ,
+                    UseCaseId= 271
+                },
+                new RoleUseCase
+                {
+                    Id=76,
+                    RoleId= 3 ,
+                    UseCaseId= 272
+                },
+                new RoleUseCase
+                {
+                    Id=77,
+                    RoleId= 3 ,
+                    UseCaseId= 2101
+                },
+                new RoleUseCase
+                {
+                    Id=78,
+                    RoleId= 3 ,
+                    UseCaseId= 2102
+                },
+                new RoleUseCase
+                {
+                    Id=79,
+                    RoleId= 3 ,
+                    UseCaseId= 2111
+                },
+                new RoleUseCase
+                {
+                    Id=80,
+                    RoleId= 3 ,
+                    UseCaseId= 2111
+                },
+                new RoleUseCase
+                {
+                    Id=81,
+                    RoleId= 3 ,
+                    UseCaseId= 2121
+                }
+            };
+
+            List<User> users = new List<User>
+            {
+                new User
+                {
+                    Id=1,
+                    FirstName="Petar",
+                    LastName="Peric",
+                    Email="pera@gmail.com",
+                    Username="admin",
+                    Password="sifra123",
+                    RoleID=3,
+                    IsActive=true,
+                    CreatedAt=DateTime.UtcNow
+                },
+                 new User
+                {
+                    Id=2,
+                    FirstName="Mitar",
+                    LastName="Miric",
+                    Email="miki@gmail.com",
+                    Username="seller",
+                    Password="sifra123",
+                    RoleID=2,
+                    IsActive=true,
+                    CreatedAt=DateTime.UtcNow
+                }
+            };
             modelBuilder.Entity<City>().HasData(cities);
             modelBuilder.Entity<Location>().HasData(locations);
             modelBuilder.Entity<Hall>().HasData(halls);
             modelBuilder.Entity<Place>().HasData(places);
             modelBuilder.Entity<Role>().HasData(roles);
+            modelBuilder.Entity<RoleUseCase>().HasData(ruc);
+            modelBuilder.Entity<User>().HasData(users);
         }
     }
 }

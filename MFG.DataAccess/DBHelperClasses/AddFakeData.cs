@@ -276,7 +276,7 @@ namespace MFG.DataAccess.DBHelperClasses
         {
             ICollection<TicketReservation> ticketReservations = new HashSet<TicketReservation>();
 
-            var users = context.Users.Where(x => x.RoleID == 3).ToList();
+            var users = context.Users.Where(x => x.RoleID == 1).ToList();
 
             int[] projectionIDs = context.Projections.Select(x => x.Id).ToArray();
             foreach (var u in users)
