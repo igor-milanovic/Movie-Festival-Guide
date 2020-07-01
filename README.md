@@ -76,6 +76,7 @@ Roles :
 		Can promote other users to sellers or demote them to regular users
 		Manages tables	
 
+6. Slika dizajna baze podataka okačena je sa projektom
 7. ideja
 
 	-user se registruje
