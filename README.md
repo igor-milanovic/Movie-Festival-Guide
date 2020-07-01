@@ -56,16 +56,20 @@ School project
 
  
 	Everyone can:
+	
 		search through directors, movies, festivals, projections and tickets
 
 	Unauthorized user :
+	
 		Can login, register
 
 	Authorized user:
+	
 		Can create / edit / cancel ticket reservations 
 		Can see TicketReservation only if he knows its ID
 
 	Seller :
+	
 		Can create / edit / cancel ticket reservations 
 			-> samo za vec registrovane Usere jer mora ID, nisam jos implementirao ako dodje neko ko nije registrovani korisnik...
 			-> Mozda moze da se stavi da kada kupac dodje na blagajnu, a nije rezervisao karte, prodavac stavlja svoj ID
@@ -73,6 +77,7 @@ School project
 		 Can see all TicketReservations and can search by multiple parametars
 
 	Admin :
+	
 		Can promote other users to sellers or demote them to regular users
 		Manages tables	
 
